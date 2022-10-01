@@ -78,4 +78,18 @@ body{
     color: dodgerblue;
     font-size: 1.5rem;
 }
+/* about section styles */
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.about_content{
+    text-align: center;
+    color: dodgerblue;
+    font-size: 1.5rem;
+}
+
+
     
