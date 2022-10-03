@@ -9,26 +9,37 @@
         content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
         href="./styles//main.css">
+    <script src="https://kit.fontawesome.com/6f74121c05.js"
+        crossorigin="anonymous"></script>
     <title>Revise html</title>
 </head>
 
 <body>
     <!-- create header -->
     <header>
-        <nav class="nav_menu">
+        <nav class="navbar__menu hidden">
             <div class="nav_start">
                 <h3 class="logo">Donate</h3>
             </div>
             <div class="nav_end">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Donate</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"
+                            class="navbar__menu--1">Home</a></li>
+                    <li><a href="#"
+                            class="navbar__menu--2">About</a></li>
+                    <li><a href="#"
+                            class="navbar__menu--3">Donate</a></li>
+                    <li><a href="#"
+                            class="navbar__menu--4">Features</a></li>
+                    <li><a href="#"
+                            class="navbar__menu--5">Contact</a></li>
                 </ul>
             </div>
         </nav>
+        <div class="navbar__icons">
+            <i class="fa-solid fa-bars bi bi-list"></i>
+            <i class="fa-solid fa-xmark bi bi-x-lg hide"></i>
+        </div>
     </header>
     <!-- main section -->
     <main>
@@ -38,7 +49,8 @@
             <div class="banner">
                 <div class="banner_content_left">
                     <h1>Let’s Help Those Who Are More In Need</h1>
-                    <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal
+                    <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo
+                        populo animal
                         noluisse, enim</p>
                     <div class="banner-flex_btn">
                         <button class="btn">Donate Now</button>
@@ -47,17 +59,28 @@
                 </div>
                 <div class="banner_content_right">
                     <!-- <h2>hello banner</h2> -->
-                   <img src="./images/banner_image.png" alt="">
+                    <img src="./images/banner_image.png"
+                        alt="donate box hold a young boy">
                 </div>
             </div>
         </section>
         <!-- About section -->
         <section class="container">
-            <div class="about">
-                <div class="about_content">
+            <div class="donate">
+                <div class="donate_content">
                     <h2>Donate Today</h2>
-                    <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
-                    <button class="btn">Explore</button>
+                    <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo
+                        populo animal noluisse, enim</p>
+                    <div class="donate_tk">
+                        <h2>100tk</h2>
+                        <h2>200tk</h2>
+                        <h2 id="donate_tk_design">500tk</h2>
+                        <h2>1000tk</h2>
+                        <h2> 5000tk </h2>
+                    </div>
+                    <div class="btn_text">
+                        <button class="btn">Donate Now</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -94,7 +117,7 @@
     <footer>
 
     </footer>
-
+    <script src="./navbar.js"></script>
 </body>
 
 </html>
