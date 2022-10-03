@@ -37,7 +37,7 @@ body{
 }
 /* style for navbar */
 
-.navbar__menu{
+.navbar_menu{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -88,8 +88,8 @@ body{
 }
 /* Media queries for navbar tablet and mobile devices */
  
-@media (max-width: 768px) {
-.navbar__menu {
+@media screen and (max-width: 768px) {
+.navbar_menu {
     z-index: 1;
     background-color: #FF5959;
     position: absolute;
@@ -120,16 +120,13 @@ body{
     margin: 1rem;
 }
 .logo{
-    display: none;
-
+    margin-right: 1.5rem;
 }
-
 .hidden {
     z-index: -1;
     opacity: 0%;
 }
-  }
-
+}
 
 /* banner styles */
 .banner{

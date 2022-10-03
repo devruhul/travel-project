@@ -1,6 +1,6 @@
 let openBtn = document.querySelector(".bi-list");
 let closeBtn = document.querySelector(".bi-x-lg");
-let menu = document.querySelector(".navbar__menu");
+let menu = document.querySelector(".navbar_menu");
 
 openBtn.addEventListener("click", () => {
     openBtn.classList.toggle("hide");
