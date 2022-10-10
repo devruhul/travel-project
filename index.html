@@ -16,30 +16,29 @@
 
 <body>
     <!-- create header -->
-    <header>
-        <nav class="navbar_menu hidden">
-            <div class="nav_start">
-                <h3 class="logo">Donate</h3>
+    <header id="#home">
+        <nav class="navbar container">
+            <div class="navbar_logo">
+                <div class="navbar_logo--text">Donate</div>
             </div>
-            <div class="nav_end">
-                <ul>
-                    <li><a href="#"
-                            class="navbar__menu--1">Home</a></li>
-                    <li><a href="#"
-                            class="navbar__menu--2">About</a></li>
-                    <li><a href="#"
-                            class="navbar__menu--3">Donate</a></li>
-                    <li><a href="#"
-                            class="navbar__menu--4">Features</a></li>
-                    <li><a href="#"
-                            class="navbar__menu--5">Contact</a></li>
-                </ul>
+            <div class="navbar_menu hidden">
+                <a href="#home"
+                    class="navbar_menu--1">Home</>
+                    <a href="#about"
+                        class="navbar_menu--2">About</a>
+                    <a href="#donate"
+                        class="navbar_menu--3">Donate</a>
+                    <a href="#features"
+                        class="navbar_menu--4">Features</a>
+                    <a href="#contact"
+                        class="navbar_menu--5">Contact</a>
+            </div>
+
+            <div class="navbar_icons">
+                <i class="bi bi-list"></i>
+                <i class="bi bi-x-lg hide"></i>
             </div>
         </nav>
-        <div class="navbar__icons">
-            <i class="fa-solid fa-bars bi bi-list"></i>
-            <i class="fa-solid fa-xmark bi bi-x-lg hide"></i>
-        </div>
     </header>
     <!-- main section -->
     <main>
@@ -90,28 +89,31 @@
             <div class="service_container">
                 <div class="services">
                     <div class="services_content">
-                        <h2>Services</h2>
+                        <img src="images/donate_education.png" alt="">
+                        <h2>Donate Education</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
                         <button class="btn">Explore</button>
                     </div>
                 </div>
                 <div class="services">
                     <div class="services_content">
-                        <h2>Services</h2>
+                        <img src="images/donate_family.png" alt="">
+                        <h2>Donate Family</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
                         <button class="btn">Explore</button>
                     </div>
                 </div>
                 <div class="services">
                     <div class="services_content">
-                        <h2>Services</h2>
+                        <img src="images/donate_food.png" alt="">
+                        <h2>Donate Food</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
                         <button class="btn">Explore</button>
                     </div>
                 </div>
             </div>
         </section>
-
+        <!--  -->
     </main>
     <!-- create modern footer -->
     <footer>
